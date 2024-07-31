@@ -13,5 +13,15 @@ public class ab_variables {
         boolean valor = true;
 
         System.out.println(saludar);
+
+        // Primitivos Números enteros
+
+        byte numeroByte = 7;
+
+        System.out.println("numeroByte = " + numeroByte);
+        System.out.println("tipo byte corresponde en byte a " + Byte.BYTES);
+        System.out.println("tipo byte corresponde en byte a " + Byte.SIZE);
+        System.out.println("valor máximo de un byte " + Byte.MAX_VALUE);
+        System.out.println("valor mínimo de un byte " + Byte.MIN_VALUE);
     }
 }
