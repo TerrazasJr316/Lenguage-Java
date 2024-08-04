@@ -47,5 +47,9 @@ public class ab_variables {
         System.out.println("tipo long corresponde en bite a " + Integer.SIZE);
         System.out.println("valor máximo de un long " + Integer.MAX_VALUE);
         System.out.println("valor mínimo de un long " + Integer.MIN_VALUE);
+
+        var numeroVar = 9223372036854775808F;
+
+
     }
 }
