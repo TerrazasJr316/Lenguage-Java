@@ -35,11 +35,17 @@ public class ab_variables {
         int numeroInt = 2147483647;
 
         System.out.println("numeroInt = " + numeroInt);
-        System.out.println("tipo short corresponde en bite a " +Integer.BYTES);
-        System.out.println("tipo short corresponde en bite a " + Integer.SIZE);
-        System.out.println("valor máximo de un short " + Integer.MAX_VALUE);
-        System.out.println("valor mínimo de un short " + Integer.MIN_VALUE);
+        System.out.println("tipo int corresponde en bite a " +Integer.BYTES);
+        System.out.println("tipo int corresponde en bite a " + Integer.SIZE);
+        System.out.println("valor máximo de un int " + Integer.MAX_VALUE);
+        System.out.println("valor mínimo de un int " + Integer.MIN_VALUE);
 
+        long numeroLong = 9223372036854775807L;
 
+        System.out.println("numeroLong = " + numeroLong);
+        System.out.println("tipo long corresponde en bite a " +Integer.BYTES);
+        System.out.println("tipo long corresponde en bite a " + Integer.SIZE);
+        System.out.println("valor máximo de un long " + Integer.MAX_VALUE);
+        System.out.println("valor mínimo de un long " + Integer.MIN_VALUE);
     }
 }
