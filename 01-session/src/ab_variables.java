@@ -80,6 +80,10 @@ public class ab_variables {
 
         // Primitivos Boolean
 
-        boolean datoLogico = true;
+        boolean datoVerdadero = true;
+        boolean datoFalso = false;
+        
+        System.out.println("datoLógico = " + datoVerdadero);
+        System.out.println("datoFalso = " + datoFalso);
     }
 }
