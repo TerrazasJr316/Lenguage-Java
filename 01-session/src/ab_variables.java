@@ -31,5 +31,6 @@ public class ab_variables {
         System.out.println("tipo short corresponde en bite a " + Short.SIZE);
         System.out.println("valor máximo de un short " + Short.MAX_VALUE);
         System.out.println("valor mínimo de un short " + Short.MIN_VALUE);
+
     }
 }
