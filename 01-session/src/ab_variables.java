@@ -35,7 +35,7 @@ public class ab_variables {
         int numeroInt = 2147483647;
 
         System.out.println("numeroInt = " + numeroInt);
-        System.out.println("tipo int corresponde en bite a " +Integer.BYTES);
+        System.out.println("tipo int corresponde en bite a " + Integer.BYTES);
         System.out.println("tipo int corresponde en bite a " + Integer.SIZE);
         System.out.println("valor máximo de un int " + Integer.MAX_VALUE);
         System.out.println("valor mínimo de un int " + Integer.MIN_VALUE);
@@ -43,12 +43,22 @@ public class ab_variables {
         long numeroLong = 9223372036854775807L;
 
         System.out.println("numeroLong = " + numeroLong);
-        System.out.println("tipo long corresponde en bite a " +Integer.BYTES);
-        System.out.println("tipo long corresponde en bite a " + Integer.SIZE);
-        System.out.println("valor máximo de un long " + Integer.MAX_VALUE);
-        System.out.println("valor mínimo de un long " + Integer.MIN_VALUE);
+        System.out.println("tipo long corresponde en bite a " +Long.BYTES);
+        System.out.println("tipo long corresponde en bite a " + Long.SIZE);
+        System.out.println("valor máximo de un long " + Long.MAX_VALUE);
+        System.out.println("valor mínimo de un long " + Long.MIN_VALUE);
 
         var numeroVar = 9223372036854775808F;
+
+        float realFloat = 0.00000000015f; //1-5e-10f
+
+        System.out.println("realFloat = " + realFloat);
+        System.out.println("tipo float corresponde en bite a " + Float.BYTES);
+        System.out.println("tipo float corresponde en bite a " + Float.SIZE);
+        System.out.println("valor máximo de un float " + Float.MAX_VALUE);
+        System.out.println("valor mínimo de un float " + Float.MIN_VALUE);
+
+
 
 
     }
