@@ -24,13 +24,22 @@ public class ab_variables {
         System.out.println("valor máximo de un byte " + Byte.MAX_VALUE);
         System.out.println("valor mínimo de un byte " + Byte.MIN_VALUE);
 
-        short numeroShort = 30000;
+        short numeroShort = 32767;
 
         System.out.println("numeroShort = " + numeroShort);
         System.out.println("tipo short corresponde en bite a " + Short.BYTES);
         System.out.println("tipo short corresponde en bite a " + Short.SIZE);
         System.out.println("valor máximo de un short " + Short.MAX_VALUE);
         System.out.println("valor mínimo de un short " + Short.MIN_VALUE);
+
+        int numeroInt = 2147483647;
+
+        System.out.println("numeroInt = " + numeroInt);
+        System.out.println("tipo short corresponde en bite a " +Integer.BYTES);
+        System.out.println("tipo short corresponde en bite a " + Integer.SIZE);
+        System.out.println("valor máximo de un short " + Integer.MAX_VALUE);
+        System.out.println("valor mínimo de un short " + Integer.MIN_VALUE);
+
 
     }
 }
