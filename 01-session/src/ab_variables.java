@@ -40,6 +40,8 @@ public class ab_variables {
         System.out.println("valor máximo de un int " + Integer.MAX_VALUE);
         System.out.println("valor mínimo de un int " + Integer.MIN_VALUE);
 
+        // Primitivos Números flotantes
+
         long numeroLong = 9223372036854775807L;
 
         System.out.println("numeroLong = " + numeroLong);
@@ -66,6 +68,18 @@ public class ab_variables {
         System.out.println("valor máximo de un double " + Double.MAX_VALUE);
         System.out.println("valor mínimo de un double " + Double.MIN_VALUE);
 
+        // Primitivos caracteres
 
+        char simbolo = '@';
+
+        System.out.println("símbolo = " + simbolo);
+        System.out.println("tipo char corresponde en bite a " + Character.BYTES);
+        System.out.println("tipo char corresponde en bite a " + Character.SIZE);
+        System.out.println("valor máximo de un char " + Character.MAX_VALUE);
+        System.out.println("valor mínimo de un double " + Character.MIN_VALUE);
+
+        // Primitivos Boolean
+
+        boolean datoLogico = true;
     }
 }
