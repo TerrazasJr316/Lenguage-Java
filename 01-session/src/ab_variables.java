@@ -58,7 +58,13 @@ public class ab_variables {
         System.out.println("valor máximo de un float " + Float.MAX_VALUE);
         System.out.println("valor mínimo de un float " + Float.MIN_VALUE);
 
+        double realDouble = 3.4028235E39;
 
+        System.out.println("realDouble = " + realDouble);
+        System.out.println("tipo double corresponde en bite a " + Double.BYTES);
+        System.out.println("tipo double corresponde en bite a " + Double.SIZE);
+        System.out.println("valor máximo de un double " + Double.MAX_VALUE);
+        System.out.println("valor mínimo de un double " + Double.MIN_VALUE);
 
 
     }
